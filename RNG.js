@@ -1,4 +1,4 @@
-class rng {
+class Rng {
     constructor(numberOfChoices) {
         this.numberOfChoices = numberOfChoices;
 
