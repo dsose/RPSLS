@@ -15,3 +15,28 @@ class Game {
     }
 }
 
+choosePlayer(){
+    Player.name = Player.setName();
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+module.exports = Game
