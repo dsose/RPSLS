@@ -15,12 +15,18 @@ class Game {
     }
 }
 
-choosePlayer(){
+choosePlayer(); {
     Player.name = Player.setName();
+    if(this.playerNumber > 1){
+        
+        playerTwo.name  = playerTwo.setName();
+        return;
+    }
 
-
-
-
+    else{
+    console.log(`Welcome ${playerOne.name}`);
+    return 1;
+  }
 }
 
 
